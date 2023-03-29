@@ -1,15 +1,57 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
-  
-  .header {
-    background-color: rgb(27, 80, 27);
-    color: white;
-    border: 20px;
+body {
+  background-color: rgb(105, 105, 194);
+}
+
+.headerbox {
+  display: inline-block;
+  font-size: 48;
+  background-color: rgb(238, 145, 240);
+  padding-right: 15px;
+  padding-left: 55px;
+}
+
+.div {
+    display: block;
   }
+div img {
+  max-height: 200px;
+}
+
+figure img {
+  max-height: 300px;
+
+}
+.columnOne {
+  float: left;
+  height: 100%;
+  width: 25%;
+  padding: 5px, 10px, 5px, 10px;
+  text-align: right;
+}
+
+.columnTwo {
+  float: right;
+  width: 75%;
+  height: 100%;
+  padding: 5px, 40px, 5px, 30px;
+  border-left: 4px black;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear:both;
+  padding-bottom: 20px;
+}
   
-  .asideheader {
-    display: flex;
-    font-size: 55px;
-  }
-  
+.floatRight {
+  float: right;
+  margin-left: 20px;
+}
+
+

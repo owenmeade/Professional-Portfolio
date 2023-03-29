@@ -9,37 +9,52 @@
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-    <header class="header">
-        <h1>Owen Meade</h1>
-    <nav class="header">
+    <header>
+    <h1 class="headerbox">Owen Meade</h1>
+    <nav class="headerbox">
         <a href="#">About Me</a>
         <a href="#">Work</a>
         <a href="#">Contact Me</a>
     </nav> 
     </header>
+    <figure> 
+        <img src="/assets/img/Screenshot 2023-03-29 113904.png" alt="Picture of me" class="img" >
+    </figure>
 
 <main>
-    <section>
-        <aside class="asideheader">
-            <h2>About Me</h2>
-        </aside>
-        <div class="">
-            <p>HERE IS WHERE I ADD MY ABOUT ME</p>
+    <div class="row">
+        <div class="columnOne" id="aboutMe">
+            <h1>About Me</h1>
         </div>
-    </section>
-    <section>
-        <aside class="asideheader">
-            <h2>Work</h2>
-        </aside>
-    </section>
-    <section>
-        <aside class="asideheader">
-            <h2>Contact Me</h2>
-        </aside>
-        <div class="">
-
+        <div class="columnTwo">
+            <p>My name is Owen Meade. </p>
+            <br>
+            <p>This is my portfolio</p>
         </div>
-    </section>
+     </div>
+    <div class="row">
+        <div class="columnOne" id="Work">
+            <h1>Work</h1>
+        </div>
+        <div class="columnTwo">
+            <section id="study-guide"></section>
+            <a href="https://owenmeade.github.io/prework-study-guide/">
+                <img src="./assets/img/Screenshot 2023-03-29 111444.png" alt="Image of completed study website." class="floatRight">
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columnOne" id="contactMe">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="columnTwo">
+            <nav>
+                <a href="#">520-307-9836</a>
+                <a href="#">drawowen77@gmail.com</a>
+                <a href="https://github.com/owenmeade">GitHub</a>
+            </nav>
+        </div>
+    </div>
 </main>
 
 
