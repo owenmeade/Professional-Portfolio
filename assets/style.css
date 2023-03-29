@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: rgb(27, 80, 27);
+    color: white;
+    border: 20px;
+  }
+  
+  .asideheader {
+    display: flex;
+    font-size: 55px;
+  }
+  
