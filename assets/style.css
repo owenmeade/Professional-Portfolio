@@ -1,57 +1,94 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
 body {
   background-color: rgb(105, 105, 194);
 }
 
+header {
+  background-color: black;
+  font-size: 2.5rem;
+}
+
+figure {
+  /* margin: 0 auto; */
+  margin-top: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
 .headerbox {
   display: inline-block;
   font-size: 48;
-  background-color: rgb(238, 145, 240);
+  background-color: rgb(0, 0, 0);
   padding-right: 15px;
   padding-left: 55px;
+  color: white  ;
+}
+
+header nav {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .div {
-    display: block;
-  }
+  display: block;
+}
+
 div img {
   max-height: 200px;
 }
 
-figure img {
-  max-height: 300px;
 
-}
+
 .columnOne {
-  float: left;
-  height: 100%;
-  width: 25%;
-  padding: 5px, 10px, 5px, 10px;
-  text-align: right;
+  border: solid 4px rgb(0, 0, 0);
+  min-width: 15%;
+  font-size: 2rem;
+  text-align: end;
 }
 
 .columnTwo {
-  float: right;
-  width: 75%;
-  height: 100%;
-  padding: 5px, 40px, 5px, 30px;
-  border-left: 4px black;
+  border: solid 4px rgb(0, 0, 0);
+  padding: 1rem;
 }
 
 .row {
-  content: "";
-  display: table;
-  clear:both;
-  padding-bottom: 20px;
-}
-  
-.floatRight {
-  float: right;
-  margin-left: 20px;
+  display: flex;
 }
 
+.work .columnTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-container {
+  border: solid 2px white;
+  padding: 2rem;
+}
+
+.work-container .banner-project {
+  border: solid 2px red;
+  height: 15vh;
+}
+
+.work-container .banner-project a {
+  border: solid 2px black;
+  margin: 2rem;
+}
+
+.work-container .banner-project img {
+  width: 100%
+}
+
+.work-container .other-project {
+  border: solid 2px aqua;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+}
+.work-container .other-project a {
+  margin: 1rem 2rem;
+}
 
