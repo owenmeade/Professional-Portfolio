@@ -105,10 +105,10 @@ div img {
 }
 
 #futureProjectOne {
-  background-image: url("./img/photo-1420593248178-d88870618ca0.jpg");
-  background-size: auto;
+  background-image: url("./img/Screenshot\ 2023-07-16\ 112300.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  max-width: 200px;
+  max-width: none;
 }
 
 #futureProjectTwo {
